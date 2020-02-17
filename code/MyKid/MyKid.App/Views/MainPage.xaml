@@ -27,7 +27,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <Button Grid.Column="0" Background="{StaticResource FirstColor}" Style="{StaticResource MenuButtonStyle}" >
+            <Button Grid.Column="0" x:Name="btnMenu1" Click="btnMenu1_Click"  Background="{StaticResource FirstColor}" Style="{StaticResource MenuButtonStyle}" >
                 <StackPanel>
                     <Image Source="/Images/menu1.png"></Image>
                     <TextBlock Text="A tocar!" Style="{StaticResource MenuLabelStyle}"></TextBlock>

@@ -123,6 +123,9 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\MusicPage.xaml.cs">
+      <DependentUpon>MusicPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -137,6 +140,10 @@
     <Content Include="Images\menu2.png" />
     <Content Include="Images\menu3.png" />
     <Content Include="Images\menu4.png" />
+    <Content Include="Images\piano1.png" />
+    <Content Include="Images\piano2.png" />
+    <Content Include="Images\piano3.png" />
+    <Content Include="Images\piano4.png" />
     <Content Include="Logo\facebook_cover_photo_1.png" />
     <Content Include="Logo\facebook_cover_photo_2.png" />
     <Content Include="Logo\facebook_profile_image.png" />
@@ -161,6 +168,22 @@
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Content Include="Sounds\Bluthund_jault.mp3" />
+    <Content Include="Sounds\donkey.mp3" />
+    <Content Include="Sounds\Ente_quackt.mp3" />
+    <Content Include="Sounds\Gaense.mp3" />
+    <Content Include="Sounds\hahn_kikeriki.mp3" />
+    <Content Include="Sounds\huehner.mp3" />
+    <Content Include="Sounds\Katze_miaut.mp3" />
+    <Content Include="Sounds\ochse.mp3" />
+    <Content Include="Sounds\pferd_whinnert.mp3" />
+    <Content Include="Sounds\Pony.mp3" />
+    <Content Include="Sounds\Rinder_muh.mp3" />
+    <Content Include="Sounds\schaf.mp3" />
+    <Content Include="Sounds\schafe.mp3" />
+    <Content Include="Sounds\schwein.mp3" />
+    <Content Include="Sounds\truthahn.mp3" />
+    <Content Include="Sounds\Ziege.mp3" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -178,6 +201,10 @@
     <Page Include="Views\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\MusicPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>

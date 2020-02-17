@@ -25,10 +25,11 @@ namespace MyKid.App.Views
         public MainPage()
         {
             this.InitializeComponent();
-        }
-        protected override void OnPreviewKeyDown(KeyRoutedEventArgs e)
+        } 
+
+        private void btnMenu1_Click(object sender, RoutedEventArgs e)
         {
-            base.OnPreviewKeyDown(e);
-        }  
+            this.Frame.Navigate(typeof(MusicPage));
+        }
     }
 }
